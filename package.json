@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/salcrom/aprendiendoReact/issues"
   },
-  "homepage": "https://github.com/salcrom/aprendiendoReact#readme"
+  "homepage": "https://github.com/salcrom/aprendiendoReact#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
 }
