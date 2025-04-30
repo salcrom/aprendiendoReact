@@ -1,11 +1,13 @@
 {
   "name": "07-midu-router",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "prepare": "swc ./src/*.jsx -d lib",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
